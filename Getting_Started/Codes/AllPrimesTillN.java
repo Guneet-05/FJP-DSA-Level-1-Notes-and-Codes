@@ -1,3 +1,4 @@
+package Getting_Started.Codes;
 import java.util.*;
 
 public class AllPrimesTillN
