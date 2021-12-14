@@ -38,6 +38,11 @@ public class GetMazePaths {
          for(String vPath: vPaths) {
              ans.add("v" + vPath);
          }
+
+         ArrayList<String> dPaths = getMazePaths(sr+1, sc+1, dr, dc);
+         for(String dPath: dPaths) {
+             ans.add("d" + dPath);
+         }
          
          return ans;
      }
