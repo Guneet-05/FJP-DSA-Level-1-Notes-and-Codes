@@ -1,3 +1,5 @@
+// Two pointer approach
+
 package Time_And_Space_Complexity.Searching_And_Sorting.Codes;
 
 public class targetSumPairLeetcode {
